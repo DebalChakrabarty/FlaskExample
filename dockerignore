@@ -1,0 +1,13 @@
+# Keep the build context small — nothing here is needed inside the image.
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+*.md
